@@ -1,0 +1,338 @@
+    html {
+        background-color: black;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(242, 242, 242);
+    }
+    /* ruleset for 320px - 480px */
+    
+    .wrapper {
+        width: 1200px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        font-size: 48px;
+        margin: 5px 10px;
+    }
+    
+    h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+    
+    h3 {
+        text-align: center;
+        margin: 0;
+        font-size: 26px;
+    }
+    
+    span {
+        color: rgb(247, 147, 30);
+    }
+    
+    img {
+        width: 100%;
+        margin: 30px auto;
+    }
+    /* Header */
+    
+    header {
+        position: fixed;
+        z-index: 5;
+        width: 1200px;
+        top: 0;
+    }
+    
+    .header {
+        background-color: rgba(39, 19, 165, 0.51);
+        width: 100%;
+        height: 60px;
+        position: relative;
+        top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    a {
+        color: rgb(242, 242, 242);
+        text-decoration: none;
+        display: block;
+        padding: 20px 0;
+        font-size: 23px;
+    }
+    
+    li a {
+        padding: 1px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+    
+    li {
+        margin: 7px 7px;
+        background-color: rgba(39, 19, 165, .3);
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 0 8px 15px rgba(247, 147, 30, .2);
+    }
+    
+    li:hover {
+        box-shadow: 0 8px 15px rgba(247, 147, 30, .8);
+    }
+    
+    .logo img {
+        position: absolute;
+        top: -10px;
+        height: 80px;
+        width: auto;
+        margin: 0;
+    }
+    /* content */
+    
+    .main img {
+        position: relative;
+        top: 40px;
+        margin-bottom: 50px;
+    }
+    /* buttons */
+    
+    .buttons {
+        display: flex;
+        position: relative;
+    }
+    
+    .buttons div:hover {
+        background-color: #d8401e;
+    }
+    
+    .buttons div {
+        box-sizing: border-box;
+        width: 100%;
+        height: 80px;
+        margin: 6px;
+        color: rgb(242, 242, 242);
+        background-color: rgb(39, 19, 165);
+        border: solid 2px rgb(247, 147, 30);
+        box-shadow: 0 8px 15px rgba(247, 147, 30, .6);
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+    /* why we sould learn */
+    
+    .learn {
+        display: block;
+        width: 100%;
+    }
+    
+    .img_2_home {
+        position: relative;
+        font-size: 26px;
+    }
+    
+    .img_2_home p {
+        position: absolute;
+        top: 350px;
+        left: 550px;
+        padding: 10px;
+        width: 630px;
+        height: 500px;
+        background-color: rgba(39, 19, 165, 0.51);
+    }
+    /* solar system page */
+    
+    .main {
+        position: relative;
+    }
+    
+    .sol_name {
+        position: absolute;
+        bottom: 10px;
+        width: 480px;
+        min-height: 380px;
+        background-color: rgba(39, 19, 165, 0.51);
+        z-index: 2;
+        padding: 20px 50px;
+        font-size: 26px;
+    }
+    
+    .sol_name p {
+        margin-left: 10px;
+    }
+    /* 10 need to know things */
+    
+    .solar {
+        width: 100%;
+        min-height: 200px;
+        border: solid 5px rgb(247, 147, 30);
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+    }
+    
+    .box {
+        width: 378px;
+        font-size: 17px;
+        flex-wrap: wrap;
+    }
+    /*interesting facts */
+    
+    .planet_facts {
+        display: flex;
+        justify-content: space-around;
+		width: 100%;
+    }
+    
+    .facts {
+        box-sizing: border-box;
+        padding: 10px;
+        margin-bottom: 14px;
+        width: 380px;
+        min-height: 200px;
+        background-color: rgba(39, 19, 165, 0.51);
+    }
+    
+    .facts1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .facts .left {
+        background-color: rgb(129, 113, 140);
+        margin-right: 10px;
+        padding: 1px 5px;
+        color: black;
+        min-height: 227px;
+    }
+    
+    .facts p {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    /*mars */
+    
+    .mars1 img {
+        width: 790px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .mars2 img {
+        width: 710px;
+        display: inline-block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+    }
+    
+    .mars {
+        position: relative;
+        font-size: 26px;
+        height: 980px;
+    }
+    
+    .mars p {
+        font-size: 17px;
+        position: absolute;
+        display: inline-block;
+        top: 12px;
+        right: 0px;
+        padding: 10px;
+        width: 350px;
+        height: 480px;
+        border: solid 5px rgb(247, 147, 30);
+    }
+    
+    .mars .buttons {
+        position: absolute;
+        bottom: 25px;
+    }
+    
+    .mars h3 {
+        position: absolute;
+        bottom: 150px;
+        left: 10px;
+    }
+    /*sun and planets*/
+    
+    #sun {
+        width: 100%;
+        position: relative;
+    }
+    
+    #sun img {
+        display: block;
+        width: 800px;
+        margin: 70px auto;
+    }
+    
+    #sun .planet_name {
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(39, 19, 165, 0.51);
+        bottom: 0;
+    }
+    
+    #sun .buttons {
+        position: absolute;
+        z-index: 3;
+        bottom: 0;
+        right: 0;
+    }
+    /*moon*/
+    
+    .moon {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .moon img {
+        width: 580px;
+    }
+    
+    .moon p {
+        width: 580px;
+        border: solid 5px rgb(247, 147, 30);
+        padding: 10px;
+        font-size: 17px;
+        height: 565px;
+    }
+    
+    .moon_name {
+        position: absolute;
+        bottom: 10px;
+        width: 480px;
+        min-height: 380px;
+        background-color: rgba(39, 19, 165, 0.51);
+        z-index: 2;
+        padding: 20px 50px;
+        font-size: 26px;
+    }
+    
+    article h2 {
+        display: none;
+    }
+    
+    .box h2 {
+        display: block;
+    }
+
+.other_moon {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.mb {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,588 @@
+   /* iphone XS */
+   
+   @media only screen and (min-width: 320px) and (max-width: 812px) {
+       /* ruleset for 320px - 480px */
+       .wrapper {
+           width: 320px;
+           display: block;
+           margin: 0 auto;
+       }
+       h2 {
+           font-size: 14px;
+           margin: 5px 10px;
+       }
+       h1 {
+           font-size: 14px;
+           text-align: center;
+           margin-top: 15px;
+           margin-bottom: 0px;
+       }
+       h3 {
+           text-align: center;
+           margin: 0;
+           font-size: 12px;
+       }
+       h5 {
+           font-size: 8px;
+           margin: 0;
+       }
+       span {
+           color: rgb(247, 147, 30);
+       }
+       img {
+           width: 100%;
+           margin: 30px auto;
+       }
+       p {
+           font-size: 11px;
+       }
+       /* Header */
+       header {
+           position: fixed;
+           top: 0px;
+           z-index: 5;
+           width: 320px;
+       }
+       .header {
+           background-color: rgba(39, 19, 165, 0.5);
+           width: 100%;
+           height: 80px;
+           position: relative;
+           top: 0px;
+       }
+       a {
+           color: rgb(242, 242, 242);
+           text-decoration: none;
+           display: block;
+           padding: 8px 0;
+           font-size: 11px;
+           /* background-color: aquamarine;
+        */
+       }
+       li a {
+           padding: 5px;
+       }
+       nav {
+           width: 90%;
+           position: absolute;
+           left: 36px;
+       }
+       nav ul {
+           list-style: none;
+           display: flex;
+           margin: 0;
+           align-items: flex-end;
+           justify-content: flex-end;
+           flex-wrap: wrap;
+       }
+       li {
+           margin: 3px 4px;
+           padding: 6px 5px;
+           border-radius: 10px;
+           background-color: rgba(39, 19, 165, 0.5);
+           box-shadow: 0 5px 7px rgba(247, 147, 30, .6);
+       }
+       .logo img {
+           position: absolute;
+           top: 25px;
+           height: 50px;
+           width: auto;
+           margin: 0;
+       }
+       /* content */
+       .main img {
+           position: relative;
+           top: 50px;
+           margin-bottom: 50px;
+       }
+       /* buttons */
+       .buttons {
+           display: flex;
+           position: relative;
+       }
+       .buttons div:hover {
+           background-color: #d8401e;
+       }
+       .buttons div {
+           box-sizing: border-box;
+           width: 100%;
+           height: 38px;
+           margin: 3px;
+           color: rgb(242, 242, 242);
+           background-color: rgb(39, 19, 165);
+           border: solid 1px rgb(247, 147, 30);
+           box-shadow: 0 5px 7px rgba(247, 147, 30, .6);
+           padding: 0px 4px;
+           border-radius: 10px;
+       }
+       /* why we sould learn */
+       .learn {
+           display: block;
+           width: 100%;
+       }
+       .img_2_home {
+           position: relative;
+           display: block;
+           width: 100%;
+           font-size: 12px;
+       }
+       .img_2_home p {
+           position: absolute;
+           top: 165px;
+           left: 0px;
+           padding: 10px;
+           width: 95%;
+           height: 120px;
+           background-color: rgba(39, 19, 165, 0.51);
+       }
+       /* solar system page */
+       .main {
+           position: relative;
+       }
+       .sol_name {
+           position: absolute;
+           bottom: 5px;
+           width: 70%;
+           min-height: 80px;
+           background-color: rgba(39, 19, 165, 0.51);
+           z-index: 2;
+           padding: 5px 5px;
+           font-size: 12px;
+       }
+       .sol_name p {
+           margin-left: 10px;
+       }
+       /* 10 need to know things */
+       article h2 {
+           display: block;
+       }
+       .box h2 {
+           display: none;
+       }
+       .solar {
+           width: 98%;
+           height: 250px;
+           border: solid 5px rgb(247, 147, 30);
+           display: block;
+           margin: 10px 0;
+           overflow: scroll;
+       }
+       .box {
+           width: 90%;
+           font-size: 17px;
+           padding: 0 7px;
+       }
+       /*interesting facts */
+       .planet_facts {
+           display: none;
+       }
+       .facts {
+           box-sizing: border-box;
+           padding: 10px;
+           margin: 0 auto;
+           margin-bottom: 14px;
+           width: 80%;
+           min-height: 100px;
+           background-color: rgba(39, 19, 165, 0.51);
+       }
+       .facts1 {
+           display: flex;
+           justify-content: space-around;
+       }
+       .facts .left {
+           background-color: rgb(129, 113, 140);
+           margin-right: 10px;
+           padding: 1px 5px;
+           color: black;
+           min-height: 100px;
+       }
+       .facts p {
+           margin-bottom: 0;
+           padding-bottom: 0;
+       }
+       /*mars */
+       .mars1 img {
+           width: 58%;
+           position: relative;
+           z-index: 2;
+       }
+       .mars2 img {
+           width: 60%;
+           display: inline-block;
+           position: absolute;
+           top: 0px;
+           right: 0;
+       }
+       .mars {
+           position: relative;
+           font-size: 26px;
+           height: 70%;
+       }
+       .mars p {
+           font-size: 11px;
+           position: relative;
+           display: inline-block;
+           top: -25px;
+           right: 0px;
+           padding: 10px;
+           width: 90%;
+           height: 230px;
+           border: solid 5px rgb(247, 147, 30);
+       }
+       .mars .buttons {
+           position: absolute;
+           width: 42%;
+           top: 138px;
+           right: 0px;
+       }
+       .mars h3 {
+           display: none;
+           position: absolute;
+           bottom: 150px;
+           left: 10px;
+       }
+       /*sun and planets*/
+       #sun {
+           width: 100%;
+           position: relative;
+       }
+       #sun img {
+           display: block;
+           width: 70%;
+           margin: 10px auto;
+       }
+       #sun .planet_name {
+           width: 30%;
+           height: 20%;
+           position: absolute;
+           z-index: 3;
+           background-color: rgba(39, 19, 165, 0.51);
+           bottom: 0;
+       }
+       #sun .buttons {
+           position: absolute;
+           z-index: 3;
+           bottom: 0;
+           right: 0;
+       }
+       /*moon*/
+       .moon {
+           width: 100%;
+           display: block;
+       }
+       .moon img {
+           width: 100%;
+       }
+       .moon p {
+           width: 90%;
+           border: solid 3px rgba(247, 147, 30);
+           padding: 10px;
+           font-size: 11px;
+           height: 200px;
+           overflow: scroll;
+       }
+       .moon_name {
+           width: 100%;
+           position: absolute;
+           bottom: 0px;
+           min-height: 80px;
+           background-color: rgba(39, 19, 165, 0.51);
+           z-index: 2;
+           padding: 5px 5px;
+           font-size: 11px;
+       }
+   }
+   
+   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+       /* STYLES GO HERE */
+       /* iphone XS */
+       .wrapper {
+           width: 320px;
+           display: block;
+           margin: 0 auto;
+       }
+       h2 {
+           font-size: 14px;
+           margin: 5px 10px;
+       }
+       h1 {
+           font-size: 14px;
+           text-align: center;
+           margin-top: 15px;
+           margin-bottom: 0px;
+       }
+       h3 {
+           text-align: center;
+           margin: 0;
+           font-size: 12px;
+       }
+       h5 {
+           font-size: 8px;
+           margin: 0;
+       }
+       span {
+           color: rgb(247, 147, 30);
+       }
+       img {
+           width: 100%;
+           margin: 30px auto;
+       }
+       p {
+           font-size: 11px;
+       }
+       /* Header */
+       header {
+           position: fixed;
+           top: 0px;
+           z-index: 5;
+           width: 320px;
+       }
+       .header {
+           background-color: rgba(39, 19, 165, 0.5);
+           width: 100%;
+           height: 80px;
+           position: relative;
+           top: 0px;
+       }
+       a {
+           color: rgb(242, 242, 242);
+           text-decoration: none;
+           display: block;
+           padding: 8px 0;
+           font-size: 11px;
+           /* background-color: aquamarine;
+        */
+       }
+       li a {
+           padding: 5px;
+       }
+       nav {
+           width: 90%;
+           position: absolute;
+           left: 36px;
+       }
+       nav ul {
+           list-style: none;
+           display: flex;
+           margin: 0;
+           align-items: flex-end;
+           justify-content: flex-end;
+           flex-wrap: wrap;
+       }
+       li {
+           margin: 3px 4px;
+           padding: 6px 5px;
+           border-radius: 10px;
+           background-color: rgba(39, 19, 165, 0.5);
+           box-shadow: 0 5px 7px rgba(247, 147, 30, .6);
+       }
+       .logo img {
+           position: absolute;
+           top: 25px;
+           height: 50px;
+           width: auto;
+           margin: 0;
+       }
+       /* content */
+       .main img {
+           position: relative;
+           top: 50px;
+           margin-bottom: 50px;
+       }
+       /* buttons */
+       .buttons {
+           display: flex;
+           position: relative;
+       }
+       .buttons div:hover {
+           background-color: #d8401e;
+       }
+       .buttons div {
+           box-sizing: border-box;
+           width: 100%;
+           height: 38px;
+           margin: 3px;
+           color: rgb(242, 242, 242);
+           background-color: rgb(39, 19, 165);
+           border: solid 1px rgb(247, 147, 30);
+           box-shadow: 0 5px 7px rgba(247, 147, 30, .6);
+           padding: 0px 4px;
+           border-radius: 10px;
+       }
+       /* why we sould learn */
+       .learn {
+           display: block;
+           width: 100%;
+       }
+       .img_2_home {
+           position: relative;
+           display: block;
+           width: 100%;
+           font-size: 12px;
+       }
+       .img_2_home p {
+           position: absolute;
+           top: 165px;
+           left: 0px;
+           padding: 10px;
+           width: 95%;
+           height: 120px;
+           background-color: rgba(39, 19, 165, 0.51);
+       }
+       /* solar system page */
+       .main {
+           position: relative;
+       }
+       .sol_name {
+           position: absolute;
+           bottom: 5px;
+           width: 70%;
+           min-height: 80px;
+           background-color: rgba(39, 19, 165, 0.51);
+           z-index: 2;
+           padding: 5px 5px;
+           font-size: 12px;
+       }
+       .sol_name p {
+           margin-left: 10px;
+       }
+       /* 10 need to know things */
+       article h2 {
+           display: block;
+       }
+       .box h2 {
+           display: none;
+       }
+       .solar {
+           width: 98%;
+           height: 250px;
+           border: solid 5px rgb(247, 147, 30);
+           display: block;
+           margin: 10px 0;
+           overflow: scroll;
+       }
+       .box {
+           width: 90%;
+           font-size: 17px;
+           padding: 0 7px;
+       }
+       /*interesting facts */
+       .planet_facts {
+           display: none;
+       }
+       .facts {
+           box-sizing: border-box;
+           padding: 10px;
+           margin: 0 auto;
+           margin-bottom: 14px;
+           width: 80%;
+           min-height: 100px;
+           background-color: rgba(39, 19, 165, 0.51);
+       }
+       .facts1 {
+           display: flex;
+           justify-content: space-around;
+       }
+       .facts .left {
+           background-color: rgb(129, 113, 140);
+           margin-right: 10px;
+           padding: 1px 5px;
+           color: black;
+           min-height: 100px;
+       }
+       .facts p {
+           margin-bottom: 0;
+           padding-bottom: 0;
+       }
+       /*mars */
+       .mars1 img {
+           width: 58%;
+           position: relative;
+           z-index: 2;
+       }
+       .mars2 img {
+           width: 60%;
+           display: inline-block;
+           position: absolute;
+           top: 0px;
+           right: 0;
+       }
+       .mars {
+           position: relative;
+           font-size: 26px;
+           height: 70%;
+       }
+       .mars p {
+           font-size: 11px;
+           position: relative;
+           display: inline-block;
+           top: -25px;
+           right: 0px;
+           padding: 10px;
+           width: 90%;
+           height: 230px;
+           border: solid 5px rgb(247, 147, 30);
+       }
+       .mars .buttons {
+           position: absolute;
+           width: 42%;
+           top: 138px;
+           right: 0px;
+       }
+       .mars h3 {
+           display: none;
+           position: absolute;
+           bottom: 150px;
+           left: 10px;
+       }
+       /*sun and planets*/
+       #sun {
+           width: 100%;
+           position: relative;
+       }
+       #sun img {
+           display: block;
+           width: 70%;
+           margin: 10px auto;
+       }
+       #sun .planet_name {
+           width: 30%;
+           height: 20%;
+           position: absolute;
+           z-index: 3;
+           background-color: rgba(39, 19, 165, 0.51);
+           bottom: 0;
+       }
+       #sun .buttons {
+           position: absolute;
+           z-index: 3;
+           bottom: 0;
+           right: 0;
+       }
+       /*moon*/
+       .moon {
+           width: 88%;
+           display: block;
+       }
+       .moon img {
+           width: 100%;
+       }
+       .moon p {
+           width: 90%;
+           border: solid 3px rgba(247, 147, 30);
+           padding: 5px;
+           font-size: 11px;
+           height: 100px;
+           overflow: scroll;
+       }
+       .moon_name {
+           width: 100%;
+           position: absolute;
+           bottom: 0px;
+           height: 50px;
+           background-color: rgba(39, 19, 165, 0.51);
+           z-index: 2;
+           padding: 1px 3px;
+           font-size: 12px;
+       }
+   }
